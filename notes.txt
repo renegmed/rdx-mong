@@ -1,0 +1,7 @@
+Lessons from Brad Traversy - MERN Stack Front to Back: Full Stact React, Redux and Node.js
+
+$ npm init
+
+$ npm i express mongoose passport passport-jwt jsonwebtoken body-parser bcryptjs validator 
+
+$ npm i -D nodemon
