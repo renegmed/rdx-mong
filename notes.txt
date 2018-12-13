@@ -40,3 +40,17 @@ Body: x-www-form-urlencoded
     email - techguyinfo@gmail.com 
     password - anypassword
 
+
+With JW Token
+
+Postman:  POST http://localhost:5000/api/users/login
+Body: x-www-form-urlencoded
+    email - techguyinfo@gmail.com 
+    password - anypassword 
+
+Result     
+{
+    "success": true,
+    "token": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjMTI2OWI3ZGJkNzNkMjg4NGE5ZDQzNSIsIm5hbWUiOiJCcmFkIFRyYXZlcnN5IiwiYXZhdGFyIjoiLy93d3cuZ3JhdmF0YXIuY29tL2F2YXRhci9kYjNkZmQxODE1ODAzNDc1NjhkYjYyYjA1NGIzZjVjNj9zPTIwMCZyPXBnJmQ9bW0iLCJpYXQiOjE1NDQ3MTM3MTUsImV4cCI6MTU0NDcxNzMxNX0.OWpCliWFfpFcQJ2DQs-4KuFQmpzwe_Z0CH8lnnJwt7s"
+}
+
