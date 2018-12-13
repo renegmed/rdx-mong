@@ -10,3 +10,16 @@ $ npm i -D nodemon
 
 $ npm i dotenv
 
+
+
+Reference: 
+   github.com/emerleite/node-gravatar
+
+
+Postman: http://localhost:5000/api/users/register
+Body: x-www-form-urlencoded 
+
+    name - Brad Traversy
+    email - techguyinfo@gmail.com 
+    password - anypassword
+
