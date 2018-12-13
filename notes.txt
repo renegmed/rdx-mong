@@ -16,7 +16,7 @@ Reference:
    github.com/emerleite/node-gravatar
 
 
-Postman: http://localhost:5000/api/users/register
+Postman: POST http://localhost:5000/api/users/register
 Body: x-www-form-urlencoded 
 
     name - Brad Traversy
@@ -33,4 +33,10 @@ Result after saving (with salted password)
     "date": "2018-12-13T14:16:23.451Z",
     "__v": 0
 }
+
+
+Postman:  POST http://localhost:5000/api/users/login
+Body: x-www-form-urlencoded
+    email - techguyinfo@gmail.com 
+    password - anypassword
 
