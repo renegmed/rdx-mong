@@ -23,3 +23,14 @@ Body: x-www-form-urlencoded
     email - techguyinfo@gmail.com 
     password - anypassword
 
+Result after saving (with salted password)
+{
+    "_id": "5c1269b7dbd73d2884a9d435",
+    "name": "Brad Traversy",
+    "email": "techguyinfo@gmail.com",
+    "avatar": "//www.gravatar.com/avatar/db3dfd181580347568db62b054b3f5c6?s=200&r=pg&d=mm",
+    "password": "$2a$10$R4d2lTXDJ0jXG9u4X8HDHePAoKKFhtnVNoPSlYSrlzjpVMrwAr3ta",
+    "date": "2018-12-13T14:16:23.451Z",
+    "__v": 0
+}
+
